@@ -1,0 +1,15 @@
+#!/bin/bash
+
+start=`date +%s`
+export https_proxy=http://proxy01.cd.intel.com:911
+export http_proxy=http://proxy01.cd.intel.com:911
+"$@"
+
+end=`date +%s`
+
+hour=`echo "(($end-$start)/3600)"    | bc`
+min=`echo  "(($end-$start)%3600)/60" | bc`
+sec=`echo  "(($end-$start)%60)"      | bc`
+printf "************************\n"
+printf "* Build  Take %-2s:%-2s:%-2s *\n" $hour $min $sec
+printf "************************\n"
