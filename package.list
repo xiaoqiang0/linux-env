@@ -1,0 +1,2 @@
+Ubuntu:
+    tsocks connect-proxy ctags vim
