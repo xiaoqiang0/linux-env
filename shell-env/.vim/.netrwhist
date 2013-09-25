@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/xiaoqiang/otctools/itest-cases-gbs/fixtures'
+let g:netrw_dirhist_2='/tmp/tmp.BH18AJm2St/packaging'
+let g:netrw_dirhist_3='/home/xiaoqiang/otctools/depanneur/packaging'
+let g:netrw_dirhist_4='/home/xiaoqiang/otctools/tizen/.repo/repo/subcmds'
+let g:netrw_dirhist_5='/home/xiaoqiang/otctools/git-buildpackage/gbp'
+let g:netrw_dirhist_6='/home/xiaoqiang/otctools/gbs/gitbuildsys'
