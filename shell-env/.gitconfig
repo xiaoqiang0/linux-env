@@ -1,0 +1,7 @@
+[core]
+        editor = vim
+[user]
+        name = Zhang Qiang
+        email = qiang.z.zhang@intel.com
+[color]
+        ui = auto
